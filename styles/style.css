@@ -3,8 +3,119 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
-
+*{
+  margin: none;
+  padding: none;
+  
+}
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  
+}
+
+main{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 120px;
+  padding-left: 500px;
+ 
+
+}
+#section1{
+  display: flex;
+  margin-right: 20px;
+}
+
+#section2{
+  display: flex;
+  flex-direction: column;
+  margin-right: 600px;
+  margin-left: 30çpx;
+  padding-left: 20px;
+  padding-right: 15px;
+  padding-top: 10px;
+  
+}
+
+#homeLogin{
+  display: flex;
+  justify-content: center;
+  margin-left: 50px;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  background-color:#6A8EAE;
+}
+
+#homeLogo{
+  padding-top: 5px;
+  height: 20px;
+}
+
+
+#logIn{
+  padding: 5px;
+  text-decoration: none;
+  color: lightgray;
+  
+
+}
+.logo-button{
+  margin: 0 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+article{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  
+}
+
+.borderArticle{
+  
+}
+h2{
+  color: #06365f;
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+  margin: 40px;
+
+}
+li>a{
+  text-decoration: none;
+  padding-top: none;
+  height: 40px;
+  color: #06365f;
+  font-weight:bold;
+  
+}
+
+ul{
+  margin-top:0px;
+  display: flex;
+  justify-content:space-between;
+  flex-direction: row;
+  width: 40%;
+  
+  
+  
+
+}
+li{
+
+  list-style: none;
+}
+
+#lightLi{
+  color: lightgray;
+  font-weight: lighter;
+  
 }
